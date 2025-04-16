@@ -1,0 +1,29 @@
+/* локальные стили */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Контент справа от сайдбара */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Header прижат к верху */
+header {
+  height: 60px;
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Остальной контент под хедером */
+.page-content {
+  flex: 1;
+  background-color: #fafafa;
+  padding: 20px;
+}
