@@ -1,0 +1,30 @@
+.block {
+  background-image: url("../../../public/sing-up.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  min-width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 97px 86px;
+  background: rgba(55, 61, 68, 0.33);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background-color: transparent;
+  height: 32px;
+}
