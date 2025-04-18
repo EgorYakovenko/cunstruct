@@ -1,5 +1,5 @@
 .block {
-  background-image: url("../../../public/sing-up.jpg");
+  background-image: url("../../../sign-up.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,9 +16,23 @@
   background: rgba(55, 61, 68, 0.33);
 }
 
+.title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.62;
+  color: var(--white-color);
+  margin-bottom: 36px;
+}
+
 .label {
   display: flex;
   flex-direction: column;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--white-color);
 }
 
 .field {
@@ -27,4 +41,46 @@
   outline: none;
   background-color: transparent;
   height: 32px;
+  margin-bottom: 24px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+.button {
+  padding: 16px 179px;
+  border-radius: 8px;
+  border: none;
+  background: var(--blue-buttons);
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: #fcfcfd;
+}
+
+.button:hover {
+  background: var(--blue-buttons-hover);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.labelCheckbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.58;
+  color: var(--white-color);
+  width: 268px;
 }

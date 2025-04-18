@@ -1,7 +1,24 @@
 /* глобальные стили */
+:root {
+  --blue-buttons: #4285f4;
+  --blue-buttons-hover: #3671cf;
+  --white-color: #fff;
+  --background-color: #f5f7fa;
+  --text-color: #1e293b;
+  --sidebar-color: #2c3e50;
+  --blue-gray: #a9b9cc;
+  --yellow: #ffb300;
+  --green: #2e7d32;
+  --red: #d32f2f;
+  --gray: #e0e0e0;
+  --light-blue: #d1e9ff;
+
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Roboto", sans-serif;
+}
+
 body,
-html,
-#root {
+html {
   margin: 0;
   padding: 0;
   height: 100%;

@@ -1,5 +1,8 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import css from "./SignUp.module.css";
+import Checkbox from "@mui/material/Checkbox";
+
+const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 export default function SignUp() {
   const handleSubmit = (values) => {
@@ -14,11 +17,12 @@ export default function SignUp() {
           email: "",
           password: "",
           confirmPassword: "",
+          acceptTerms: false,
         }}
         onSubmit={handleSubmit}
       >
         <Form className={css.container}>
-          <p>Создать аккаунт</p>
+          <p className={css.title}>Создать аккаунт</p>
           <label className={css.label}>
             Имя
             <Field className={css.field} type="text" name="name" />
@@ -48,7 +52,21 @@ export default function SignUp() {
             />
             <ErrorMessage component="span" name="confirmPassword" />
           </label>
-          <button type="submit">Создать</button>
+
+          {/* <label className={css.labelCheckbox}> */}
+          {/* <Checkbox {...label} defaultChecked size="small" /> */}
+          {/* <Field
+              className={css.checkbox}
+              type="checkbox"
+              name="acceptTerms"
+            /> */}
+          {/* Создавая учетную запись, вы соглашаетесь с нашими Условиями
+            обслуживания и Политикой конфиденциальности. */}
+          {/* <ErrorMessage component="span" name="acceptTerms" /> */}
+          {/* </label> */}
+          <button className={css.button} type="submit">
+            Создать
+          </button>
         </Form>
       </Formik>
     </div>
