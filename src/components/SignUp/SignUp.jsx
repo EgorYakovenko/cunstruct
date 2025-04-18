@@ -1,6 +1,5 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import css from "./SignUp.module.css";
-import Checkbox from "@mui/material/Checkbox";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
@@ -65,7 +64,7 @@ export default function SignUp() {
           {/* <ErrorMessage component="span" name="acceptTerms" /> */}
           {/* </label> */}
           <button className={css.button} type="submit">
-            Создать
+            Зарегистрироватся
           </button>
         </Form>
       </Formik>

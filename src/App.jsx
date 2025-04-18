@@ -1,19 +1,20 @@
 import "./App.css";
-import Header from "./components/Header/Header";
+
 import Layout from "./components/Layout/Layout";
-import SideBar from "./components/SideBar/SideBar";
-import SignUp from "./components/SignUp/SignUp";
+
 import Test from "./components/Test";
-import SignUpPage from "./page/SignUp/SignUpPage";
+import SignInPage from "./page/SignInPage/SignInPage";
+import SignUpPage from "./page/SignUpPage/SignUpPage";
 
 function App() {
   return (
     <>
-      <SignUpPage />
-      {/* <SignUp /> */}
-      {/* <Layout>
+      {/* <SignInPage /> */}
+      {/* <SignUpPage /> */}
+
+      <Layout>
         <Test />
-      </Layout> */}
+      </Layout>
     </>
   );
 }
