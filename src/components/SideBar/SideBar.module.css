@@ -1,5 +1,60 @@
 .sidebar {
-  width: 200px;
-  background-color: #7a7a7a;
-  padding: 20px;
+  width: 250px;
+  background: var(--sidebar-color);
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  width: 180px;
+}
+
+.logo {
+  background-color: black;
+  width: 36px;
+  height: 36px;
+}
+
+.name {
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+.menuList {
+  margin-top: 35px;
+}
+
+.menuList li {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Расстояние между иконкой и текстом */
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.menuIcon {
+  font-size: 22px;
+
+  transition: color 0.3s;
+}
+
+.menuItem:hover,
+:focus .menuIcon a {
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+
+a:active {
+  background-color: var(--white-color);
 }

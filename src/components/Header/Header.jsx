@@ -6,19 +6,19 @@ export default function Header() {
       <nav className={css.nav}>
         <ul className={css.navList}>
           <li>
-            <a href="">About Us</a>
+            <a href="#">About Us</a>
           </li>
           <li>
-            <a href="">Blog</a>
+            <a href="#">Blog</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#">Contact</a>
           </li>
           <li>
-            <a href="">FAQs</a>
+            <a href="#">FAQs</a>
           </li>
           <li>
-            <a href="">Reviews</a>
+            <a href="#">Reviews</a>
           </li>
         </ul>
       </nav>
