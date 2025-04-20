@@ -14,9 +14,17 @@ export default function SideBar() {
     <>
       <div className={css.sidebar}>
         <div className={css.logoContainer}>
-          <div className={css.logo}></div>
+          <div>
+            <img
+              className={css.logo}
+              src="../../../logo.svg"
+              alt=""
+              width="80"
+              height="80"
+            />
+          </div>
           <h1 className={css.name}>
-            Construct <span>hub</span>
+            Construct <span>HUB</span>
           </h1>
         </div>
         <ul className={css.menuList}>
