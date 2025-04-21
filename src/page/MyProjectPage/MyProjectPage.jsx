@@ -1,3 +1,4 @@
+import MyProjectFilter from "../../components/Filters/MyProject/MyProjectFilter";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import css from "./MyProjectPage.module.css";
 
@@ -5,6 +6,7 @@ export default function MyProjectPage() {
   return (
     <>
       <div className={css.pageTitle}>Мои проекты</div>
+      <MyProjectFilter />
       <div className={css.card}>
         <ProjectCard />
         <ProjectCard />
