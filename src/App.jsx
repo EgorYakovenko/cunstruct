@@ -1,6 +1,7 @@
 import "./App.css";
 
 import Layout from "./components/Layout/Layout";
+import ProjectCard from "./components/ProjectCard/ProjectCard";
 
 import Test from "./components/Test";
 import SignInPage from "./page/SignInPage/SignInPage";
@@ -13,7 +14,8 @@ function App() {
       {/* <SignUpPage /> */}
 
       <Layout>
-        <Test />
+        <ProjectCard />
+        {/* <Test /> */}
       </Layout>
     </>
   );

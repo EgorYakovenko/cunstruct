@@ -1,0 +1,44 @@
+.progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 8px;
+}
+
+.progress::-webkit-progress-bar {
+  background-color: var(--gray);
+  border-radius: 8px;
+}
+
+.red::-webkit-progress-value {
+  background-color: #ff0000;
+}
+
+.yellow::-webkit-progress-value {
+  background-color: #ffcc00;
+}
+
+.green::-webkit-progress-value {
+  background-color: #00ff0d;
+}
+
+.progress {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  color: var(--sidebar-color);
+}
+
+.progressCount {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--text-color);
+}
+
+.lable {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
