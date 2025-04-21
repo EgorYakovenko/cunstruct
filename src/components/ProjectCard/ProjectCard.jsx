@@ -4,7 +4,6 @@ import css from "./ProjectCard.module.css";
 export default function ProjectCard() {
   return (
     <>
-      <h2 className={css.titlePage}>Мои проекты</h2>
       <div className={css.projectCard}>
         <img src="../../../Example.jpg" alt="" />
         <h2 className={css.titleName}>Dream house</h2>

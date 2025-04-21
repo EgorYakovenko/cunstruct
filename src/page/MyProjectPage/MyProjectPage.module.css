@@ -1,0 +1,14 @@
+.pageTitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--text-color);
+
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
