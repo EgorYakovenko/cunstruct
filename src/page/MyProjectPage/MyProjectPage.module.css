@@ -4,7 +4,7 @@
   font-size: 32px;
   color: var(--text-color);
 
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -12,4 +12,44 @@
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+}
+
+.input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 300px;
+}
+
+.input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputWrapper .icon {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  color: #888;
+}
+
+.inputWrapper input {
+  padding-left: 35px;
+  height: 36px;
+  font-size: 14px;
 }
