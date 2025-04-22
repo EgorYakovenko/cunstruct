@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  border-collapse: separate; /* обязательно! */
+  border-spacing: 0 5px; /* отступ по вертикали между строками */
+}
+
+th,
+td {
+  border-left: 1px solid #ccc;
+
+  background: var(--background-color);
+
+  padding: 5px 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover td {
+  background-color: #cfcfcf;
+  border-left: 1px solid #5e5e5e;
+}
