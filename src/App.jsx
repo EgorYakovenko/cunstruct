@@ -1,4 +1,5 @@
 import "./App.css";
+import AddProjectFormData from "./components/AddProject/AddProjectFormData/AddProjectFormData";
 
 import Layout from "./components/Layout/Layout";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
@@ -17,7 +18,8 @@ function App() {
 
       <Layout>
         {/* <MyProjectPage /> */}
-        <DocumentsPage />
+        <AddProjectFormData />
+        {/* <DocumentsPage /> */}
       </Layout>
     </>
   );
