@@ -1,0 +1,41 @@
+.input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  min-width: 400px;
+}
+
+label :focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* .input :placeholder {
+  color: #ff0000;
+  font-style: italic;
+} */
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.inputWrapper Field {
+  padding-left: 35px;
+  height: 36px;
+  font-size: 14px;
+}
+
+.inputWrapper label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-color);
+}

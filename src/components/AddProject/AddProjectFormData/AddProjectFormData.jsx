@@ -1,4 +1,5 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
+import css from "./AddProjectFormData.module.css";
 
 export default function AddProjectFormData() {
   const handleSubmit = (values) => {
@@ -18,46 +19,46 @@ export default function AddProjectFormData() {
         }}
         onSubmit={handleSubmit}
       >
-        <Form>
-          <label>
+        <Form className={css.inputWrapper}>
+          <label className={css.label}>
             Название объекта
-            <Field type="text" name="objectName" />
+            <Field className={css.input} type="text" name="objectName" />
             <ErrorMessage component="span" name="objectName" />
           </label>
           <label>
             Имя исполнителя
-            <Field type="text" name="customerName" />
+            <Field className={css.input} type="text" name="customerName" />
             <ErrorMessage component="span" name="customerName" />
           </label>
           <label>
             Адресс
-            <Field type="text" name="adress" />
+            <Field className={css.input} type="text" name="adress" />
             <ErrorMessage component="span" name="adress" />
           </label>
           <label>
             Дата начала
-            <Field type="date" name="startDate" />
+            <Field className={css.input} type="date" name="startDate" />
             <ErrorMessage component="span" name="startDate" />
           </label>
           <label>
             Дата окончания
-            <Field type="date" name="endDate" />
+            <Field className={css.input} type="date" name="endDate" />
             <ErrorMessage component="span" name="endDate" />
           </label>
           <label>
             Описание
             <Field
+              className={css.input}
               type="text"
               name="description"
               as="textarea"
               id="message"
               rows="10"
               cols="50"
-              placeholder="Введите текст"
             />
             <ErrorMessage component="span" name="description" />
           </label>
-          <button type="submit"></button>
+          <button type="submit">Сохранить</button>
         </Form>
       </Formik>
     </>

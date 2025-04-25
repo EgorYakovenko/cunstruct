@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 24px;
+}
+
+/* .item1 {
+  flex-grow: 1;
+} */
+
+.item2 {
+  flex-grow: 1;
+}
