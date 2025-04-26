@@ -1,0 +1,12 @@
+.counterpartiesList {
+}
+
+.counterpartiesItem {
+  border: 1px solid red;
+}
+
+.cardContainer {
+  display: flex;
+
+  align-items: center;
+}

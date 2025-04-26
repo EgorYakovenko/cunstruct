@@ -10,3 +10,7 @@
 .item2 {
   flex-grow: 1;
 }
+
+.upload {
+  padding-top: 55px;
+}
