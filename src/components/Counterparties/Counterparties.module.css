@@ -1,12 +1,50 @@
 .counterpartiesList {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 12px;
+}
+
+.role {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 80%;
+  color: var(--text-color);
+  /* margin-top: 30px; */
+  margin-bottom: 8px;
+}
+
+.description {
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 133%;
+  color: var(--text-color);
 }
 
 .counterpartiesItem {
-  border: 1px solid red;
+  background: var(--background-color);
+  max-width: 360px;
+  border-radius: 8px;
 }
 
 .cardContainer {
   display: flex;
-
+  padding: 30px;
   align-items: center;
+}
+
+.link {
+  display: block;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  background: var(--light-blue);
 }
