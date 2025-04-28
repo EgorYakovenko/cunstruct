@@ -1,18 +1,21 @@
 .container {
   display: flex;
+  justify-content: space-around;
   gap: 24px;
 }
 
-/* .item1 {
-  flex-grow: 1;
+/* .image {
+  flex-grow: 2;
 } */
 
-.item2 {
-  flex-grow: 1;
-}
+/* .form {
+  width: 100%;
+} */
 
 .upload {
-  padding-top: 55px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* padding-top: 55px; */
 }
 
 .counterparties {

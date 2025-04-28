@@ -5,7 +5,8 @@
   font-size: 16px;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
-  min-width: 400px;
+  min-width: 500px;
+  resize: none;
 }
 
 label :focus {
@@ -13,13 +14,11 @@ label :focus {
   box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
 }
 
-/* .input :placeholder {
-  color: #ff0000;
-  font-style: italic;
-} */
-
 .inputWrapper {
   display: flex;
+
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 24px;
 }
@@ -38,4 +37,19 @@ label :focus {
   font-weight: 400;
   font-size: 14px;
   color: var(--text-color);
+}
+
+.button {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--white-color);
+
+  border-radius: 8px;
+  border: none;
+  padding: 16px;
+  width: 454px;
+  height: 48px;
+  background: var(--blue-buttons);
 }

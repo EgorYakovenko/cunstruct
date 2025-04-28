@@ -58,7 +58,9 @@ export default function AddProjectFormData() {
             />
             <ErrorMessage component="span" name="description" />
           </label>
-          <button type="submit">Сохранить</button>
+          <button className={css.button} type="submit">
+            Сохранить
+          </button>
         </Form>
       </Formik>
     </>

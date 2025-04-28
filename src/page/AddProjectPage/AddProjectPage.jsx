@@ -8,16 +8,18 @@ export default function AddProjectPage() {
   return (
     <>
       <div className={css.container}>
-        <div className={css.item1}>
+        <div className={css.image}>
           <AddProjectImage />
         </div>
-        <div className={css.item2}>
+
+        <div className={css.form}>
           <AddProjectFormData />
         </div>
+        <div className={css.upload}>
+          <UploadDocuments />
+        </div>
       </div>
-      <div className={css.upload}>
-        <UploadDocuments />
-      </div>
+
       <div className={css.counterparties}>
         <Counterparties />
       </div>

@@ -35,6 +35,14 @@ export default function UploadDocuments() {
             <span>Контроль бюджета</span>
           </a>
         </li>
+        <li className={css.uploadItem}>
+          <a className={css.link} href="">
+            <BsPlus className={css.icon} />
+
+            <p>Загрузить фото</p>
+            <span>Все фото в одном месте</span>
+          </a>
+        </li>
       </ul>
     </>
   );

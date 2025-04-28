@@ -1,10 +1,12 @@
 .container {
-  width: 350px;
-  border: 1px solid green;
+  min-width: 350px;
   padding: 130px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
 }
 
-/* .projectImg {
+.projectImg {
   width: 107px;
   height: 107px;
-} */
+}
