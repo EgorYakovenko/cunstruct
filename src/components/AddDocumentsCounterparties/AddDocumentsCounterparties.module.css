@@ -1,9 +1,9 @@
-.counterpartiesList {
+/* .counterpartiesList {
   display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: space-around;
-}
+} */
 
 .icon {
   width: 64px;

@@ -18,10 +18,9 @@ export default function AddProjectPage() {
         <div className={css.upload}>
           <UploadDocuments />
         </div>
-      </div>
-
-      <div className={css.counterparties}>
-        <Counterparties />
+        <div className={css.counterparties}>
+          <Counterparties />
+        </div>
       </div>
     </>
   );
