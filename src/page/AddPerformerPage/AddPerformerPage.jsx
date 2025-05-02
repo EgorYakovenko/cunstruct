@@ -4,7 +4,9 @@ import AddPerformerForm from "../../components/AddPerformer/AddPerformerFrom/Add
 export default function AddPerformerPage() {
   return (
     <>
+      <h2>Добавить исполнителя</h2>
       <AddPerformerForm />
+      <h2>Документы</h2>
       <AddDocuments />
     </>
   );

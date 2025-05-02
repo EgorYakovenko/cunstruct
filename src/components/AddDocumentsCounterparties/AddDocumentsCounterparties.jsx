@@ -1,5 +1,4 @@
 import css from "./AddDocumentsCounterparties.module.css";
-import { GrUserWorker } from "react-icons/gr";
 
 export default function AddDocumentsCounterparties({
   Icon,

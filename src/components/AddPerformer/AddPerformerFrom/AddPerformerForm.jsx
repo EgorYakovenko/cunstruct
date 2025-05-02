@@ -43,6 +43,7 @@ export default function AddPerformerForm() {
             <Field className={css.input} type="text" name="adress" />
             <ErrorMessage component="span" name="adress" />
           </label>
+          <button></button>
         </Form>
       </Formik>
     </>
