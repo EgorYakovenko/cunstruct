@@ -23,7 +23,7 @@ export default function Counterparties() {
       <AddDocumentsCounterparties
         Icon={BsPersonVcard}
         role="Поставщики"
-        description="Отслеживайте поставщиков материалы и оборудования."
+        description="Отслеживайте поставщиков материалов и оборудования."
         link="Добавить"
       />
     </>

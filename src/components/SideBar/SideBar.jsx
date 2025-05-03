@@ -7,6 +7,7 @@ import { BsPersonVcard } from "react-icons/bs";
 import { HiOutlineDocumentReport } from "react-icons/hi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
+import { GrUserWorker } from "react-icons/gr";
 
 import css from "./SideBar.module.css";
 export default function SideBar() {
@@ -43,6 +44,10 @@ export default function SideBar() {
           <li className={css.menuItem}>
             <PiWarehouse className={css.menuIcon} />
             <a href="#">Склад</a>
+          </li>
+          <li className={css.menuItem}>
+            <GrUserWorker className={css.menuIcon} />
+            <a href="#">Исполнители</a>
           </li>
           <li className={css.menuItem}>
             <MdOutlineEngineering className={css.menuIcon} />

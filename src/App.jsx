@@ -1,10 +1,5 @@
 import "./App.css";
-import AddDocumentsCounterparties from "./components/AddDocumentsCounterparties/AddDocumentsCounterparties";
-import AddProjectFormData from "./components/AddProject/AddProjectFormData/AddProjectFormData";
-
 import Layout from "./components/Layout/Layout";
-import ProjectCard from "./components/ProjectCard/ProjectCard";
-
 import Test from "./components/Test";
 import AddPerformerPage from "./page/AddPerformerPage/AddPerformerPage";
 import AddProjectPage from "./page/AddProjectPage/AddProjectPage";
@@ -23,10 +18,9 @@ function App() {
       <Layout>
         {/* <MyProjectPage /> */}
         {/* <AddProjectPage /> */}
-        {/* <AddPerformerPage /> */}
-        <ProjectDetailsPage />
-        {/* <AddDocumentsCounterparties /> */}
-        {/* <AddProjectFormData /> */}
+        <AddPerformerPage />
+        {/* <ProjectDetailsPage /> */}
+
         {/* <DocumentsPage /> */}
       </Layout>
     </>
