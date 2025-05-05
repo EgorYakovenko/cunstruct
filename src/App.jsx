@@ -8,6 +8,7 @@ import MyProjectPage from "./page/MyProjectPage/MyProjectPage";
 import ProjectDetailsPage from "./page/ProjectDetailsPage/ProjectDetailsPage";
 import SignInPage from "./page/SignInPage/SignInPage";
 import SignUpPage from "./page/SignUpPage/SignUpPage";
+import CounterpartiesPage from "./page/CounterpartiesPage/CounterpartiesPage";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
       <Layout>
         {/* <MyProjectPage /> */}
         {/* <AddProjectPage /> */}
-        <AddPerformerPage />
+        {/* <AddPerformerPage /> */}
         {/* <ProjectDetailsPage /> */}
-
+        <CounterpartiesPage />
         {/* <DocumentsPage /> */}
       </Layout>
     </>
