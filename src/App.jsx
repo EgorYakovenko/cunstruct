@@ -22,6 +22,7 @@ function App() {
         {/* <AddPerformerPage /> */}
         {/* <ProjectDetailsPage /> */}
         <CounterpartiesPage />
+
         {/* <DocumentsPage /> */}
       </Layout>
     </>
