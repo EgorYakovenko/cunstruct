@@ -9,6 +9,7 @@ import ProjectDetailsPage from "./page/ProjectDetailsPage/ProjectDetailsPage";
 import SignInPage from "./page/SignInPage/SignInPage";
 import SignUpPage from "./page/SignUpPage/SignUpPage";
 import CounterpartiesPage from "./page/CounterpartiesPage/CounterpartiesPage";
+import CounterpartiesProfilesPage from "./page/CounterpartiesProfilesPage/CounterpartiesProfilesPage";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         {/* <AddProjectPage /> */}
         {/* <AddPerformerPage /> */}
         {/* <ProjectDetailsPage /> */}
-        <CounterpartiesPage />
+        {/* <CounterpartiesPage /> */}
+        <CounterpartiesProfilesPage />
 
         {/* <DocumentsPage /> */}
       </Layout>
