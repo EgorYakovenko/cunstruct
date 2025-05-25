@@ -1,0 +1,49 @@
+.foto {
+  border-radius: 8px;
+  width: 257px;
+  height: 261px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
+}
+
+.personalData {
+  border-radius: 8px;
+  width: 360px;
+  height: 261px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
+}
+
+.history {
+  border-radius: 8px;
+  width: 642px;
+  height: 448px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
+}
+
+.description {
+  border-radius: 8px;
+  width: 439px;
+  height: 145px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
+}
+.service {
+  border-radius: 8px;
+  width: 439px;
+  height: 133px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
+}
+
+.documents {
+  border-radius: 8px;
+  width: 439px;
+  height: 407px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white-color);
+}
